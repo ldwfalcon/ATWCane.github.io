@@ -1805,7 +1805,7 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #5385c1;
+			background: #7c9abe;
 			color: #bacee6;
 		}
 
@@ -1913,7 +1913,7 @@
 				content: '';
 				position: absolute;
 				width: 100%;
-				height: 75%;
+				height: 100%;
 				right: -2em;
 				top: 0;
 				border-right: 1px solid #dbdbdb;
