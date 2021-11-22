@@ -1805,7 +1805,7 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: linear-gradient(180deg, rgba(186,206,230,1), rgba(31,58,87,1))
+			background: linear-gradient(180deg, rgba(186,206,230,1), rgba(31,58,87,1));
 			color: #4a1010;
 			box-shadow: 0 0 15px 20px #bacee6;
 		}
@@ -2934,7 +2934,7 @@
 /* Banner */
 
 	#banner {
-		padding: 20em 0 10em 0;
+		padding: 14em 0 10em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
