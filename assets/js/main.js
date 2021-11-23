@@ -43,7 +43,7 @@
 			$(
 				'<div id="navPanel">' +
 					$('#nav').html() +
-					'<b href="#navPanel" class="close"></b>' +
+					'<a href="#navPanel" class="close"></a>' +
 				'</div>'
 			)
 				.appendTo($body)
