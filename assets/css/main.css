@@ -2787,6 +2787,24 @@
 				#header a.navPanelToggle .fa {
 					font-size: 1.25em;
 				}
+				@media screen and (max-width: 980px) {
+
+					#header a.navPanelToggle {
+						display: inline-block;
+					}
+
+				}
+
+			@media screen and (max-width: 736px) {
+
+				#header a {
+					padding: 0 0.5em;
+				}
+
+			}
+
+
+
 		#header b {
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
@@ -2821,7 +2839,7 @@
 
 				@media screen and (max-width: 980px) {
 
-					#header a.navPanelToggle {
+					#header b.navPanelToggle {
 						display: inline-block;
 					}
 
@@ -2829,7 +2847,7 @@
 
 			@media screen and (max-width: 736px) {
 
-				#header a {
+				#header b {
 					padding: 0 0.5em;
 				}
 
