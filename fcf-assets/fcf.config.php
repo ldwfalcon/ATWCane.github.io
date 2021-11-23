@@ -83,7 +83,7 @@ define('EMAIL_TO_CC_NAME', '');
 define('EMAIL_TO_BCC', '');
 define('EMAIL_TO_BCC_NAME', '');
 
-define('EMAIL_FROM', 'ldwfalcon@gmail.com');
+define('EMAIL_FROM', 'smtp.gmail.com');
 define('EMAIL_FROM_NAME', '');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
@@ -98,13 +98,13 @@ define('EMAIL_SUBJECT_AFTER', '');
 // ***************
 // EMAIL TRANSPORT
 // ***************
-define('USE_SMTP', 'NO'); // YES or NO
-define('SMTP_HOST', '');
-define('SMTP_USER', '');
-define('SMTP_PASS', '');
+define('USE_SMTP', 'YES'); // YES or NO
+define('SMTP_HOST', 'LD Weiss');
+define('SMTP_USER', 'ldwfalcon@gmail.com');
+define('SMTP_PASS', '9#lDAWQKBN1');
 define('SMTP_AUTH', '');
-define('SMTP_SECURE', ''); // STARTTLS, SMTPS (port 465) or empty
-define('SMTP_PORT', '');
+define('SMTP_SECURE', '465'); // STARTTLS, SMTPS (port 465) or empty
+define('SMTP_PORT', '587');
 define('SMTP_DEBUG', 'NO'); // YES or NO
 
 
