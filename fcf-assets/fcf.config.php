@@ -83,8 +83,8 @@ define('EMAIL_TO_CC_NAME', '');
 define('EMAIL_TO_BCC', '');
 define('EMAIL_TO_BCC_NAME', '');
 
-define('EMAIL_FROM', '');
-define('EMAIL_FROM_NAME', 'allterraincane@gmail.com');
+define('EMAIL_FROM', 'ldwfalcon@gmail.com');
+define('EMAIL_FROM_NAME', '');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
 define('EMAIL_REPLY_TO_NAME', 'FIELD:Email');
