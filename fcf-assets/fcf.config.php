@@ -101,7 +101,7 @@ define('EMAIL_SUBJECT_AFTER', '');
 define('USE_SMTP', 'YES'); // YES or NO
 define('SMTP_HOST', 'LD Weiss');
 define('SMTP_USER', 'ldwfalcon@gmail.com');
-define('SMTP_PASS', '9#lDAWQKBN1');
+define('SMTP_PASS', '');
 define('SMTP_AUTH', '');
 define('SMTP_SECURE', '465'); // STARTTLS, SMTPS (port 465) or empty
 define('SMTP_PORT', '587');
