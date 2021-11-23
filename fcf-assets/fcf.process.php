@@ -5,5 +5,5 @@
 // See license for details
 // ************************************
 
-require dirname(__FILE__).'/'.'fcf.config.php';
-require dirname(__FILE__).'/'.'process.php';
+include dirname(__FILE__).'/'.'fcf.config.php';
+include dirname(__FILE__).'/'.'process.php';
