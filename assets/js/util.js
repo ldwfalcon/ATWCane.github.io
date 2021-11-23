@@ -25,7 +25,7 @@
 				'>' +
 					'<span class="indent-' + indent + '"></span>' +
 					$this.text() +
-				'</a>'
+				'</b>'
 			);
 
 		});
