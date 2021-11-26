@@ -1656,7 +1656,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
@@ -1784,7 +1784,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 1em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
