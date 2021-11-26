@@ -1633,11 +1633,12 @@
 		}
 
 	a {
-		color: #5385c1;
+		color: #b6d8ff;
 		text-decoration: underline;
 	}
 
 		a:hover {
+			color: #227c92;
 			text-decoration: none;
 		}
 
