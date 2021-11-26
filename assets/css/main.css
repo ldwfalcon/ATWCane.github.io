@@ -1655,7 +1655,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #ffffff;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1811,7 +1811,7 @@
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
-				color: #000;
+				color: rgb(255, 255, 255);
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
