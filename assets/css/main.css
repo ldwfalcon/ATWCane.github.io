@@ -1808,7 +1808,7 @@
 		section.wrapper.style1, article.wrapper.style1 {
 			background: linear-gradient(180deg, rgba(186,206,230,1), rgba(31,58,87,1));
 			color: #14376b;
-			box-shadow: 0 0 15px 20px #bacee6;
+			box-shadow: 0 0 2px 15px #bacee6;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
