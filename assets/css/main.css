@@ -1986,7 +1986,7 @@
 	}
 
 	label {
-		color: #555;
+		color: rgb(255, 255, 255);
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
