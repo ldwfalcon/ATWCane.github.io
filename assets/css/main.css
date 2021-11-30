@@ -2763,14 +2763,17 @@
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
-			padding: 0 6em;
+			padding: 0 5em;
 			color: inherit;
 			text-decoration: underline;
-			font-size: .8em;
+			font-size: 1.2em;
 		}
 
 			#header a:hover {
 				color: #3e84a0;
+				text-decoration: none;
+				-ms-transform: scale(1.5);
+				transform: scale(1.5);
 			}
 
 			#header a:last-child {
