@@ -2824,6 +2824,9 @@
 		
 			#header b:hover {
 				color: #227c92;
+				-ms-transform: scale(1.1);
+				-webkit-transform: scale(1.1);				
+				transform: scale(1.1);
 			}
 		
 			#header b:last-child {
