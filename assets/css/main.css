@@ -3128,6 +3128,93 @@ button:disabled,
 	color: inherit;
 }
 
+/* banner5 */
+
+#banner5 {
+	padding: 0.75em 0 0.5em 0;
+	/* background-image: url('../../images/5881bc19312dc8d7a4ae0f064daeba0e.jpg'); */
+	background-color: rgb(58, 83, 109);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-top: 0em solid #5385c1;
+}
+
+#banner5 h1 {
+	font-size: 3.5em;
+	font-weight: 100;
+	color: #fff;
+	line-height: 1em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+#banner5 h3 {
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #fff;
+	line-height: 1em;
+	margin: 0 0 -2.5em 0;
+	padding: 0em;
+	background-color: rgb(58, 83, 109);
+	box-shadow: 0 0 17px 13px rgba(57, 82, 108, 1);
+}
+
+#banner5 p {
+	font-size: 1em;
+	color: rgba(255, 255, 255, 0.55);
+	margin-bottom: 1.75em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+	#banner5 {
+		background-attachment: scroll;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	#banner5 {
+		padding: 10em 2em 8em 2em;
+	}
+
+}
+
+@media screen and (max-width: 980px) {
+
+	#banner5 {
+		background-attachment: scroll;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	#banner5 {
+		padding: 8em 1.5em 6em 1.5em;
+	}
+
+	#banner5 h1 {
+		font-size: 2.5em;
+	}
+
+	#banner5 p {
+		font-size: .9em;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	#banner5 {
+		padding: 6em 1.5em 4em 1.5em;
+	}
+
+}
 /* banner4 */
 
 #banner4 {
@@ -3214,7 +3301,6 @@ button:disabled,
 	}
 
 }
-
 /* banner3 */
 
 #banner3 {
@@ -3391,7 +3477,7 @@ button:disabled,
 
 #banner p {
 	font-size: 1em;
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.9);
 	margin-bottom: 1.75em;
 }
 
