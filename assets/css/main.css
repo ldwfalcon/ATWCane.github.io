@@ -2209,7 +2209,7 @@ input[type="radio"]+label:before {
 
 .box.person {
 	border: solid 1px rgba(255, 255, 255, 0);
-	padding: 1em 1.5em;
+	padding: 1em 1em;
 }
 
 .box.person h3 {
@@ -2359,6 +2359,28 @@ ul.icons li:last-child {
 ul.icons li .icon:before {
 	font-size: 2em;
 }
+
+ul.icons2 {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icons2 li {
+	display: inline-block;
+	padding: 0 0.5em 0 0;
+}
+
+ul.icons2 li:last-child {
+	padding-right: 0;
+}
+
+ul.icons2 li .icon:before {
+	font-size: 1em;
+	color: #14376b;
+}
+
+
 
 ul.actions {
 	cursor: default;
