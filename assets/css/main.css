@@ -1794,7 +1794,7 @@ section.special article, article.special article {
 }
 
 section.wrapper, article.wrapper {
-	padding: 3.75em 0;
+	padding: 1em 0;
 }
 
 section.wrapper header, article.wrapper header {
@@ -1815,9 +1815,9 @@ section.wrapper article header, article.wrapper article header {
 }
 
 section.wrapper.style1, article.wrapper.style1 {
-	background: linear-gradient(180deg, rgba(186, 206, 230, 1), rgba(31, 58, 87, 1));
+	background: linear-gradient(rgba(186, 206, 230, 1), rgba(31, 58, 87, 1) 6.72%, rgba(31, 58, 87, 1) 51.26%, rgba(186, 206, 230, 1));
 	color: #14376b;
-	box-shadow: 0 0 2px 15px #bacee6;
+	
 }
 
 section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -2208,8 +2208,8 @@ input[type="radio"]+label:before {
 }
 
 .box.person {
-	border: solid 1px rgba(255, 255, 255, 0.25);
-	padding: 3em 1.5em;
+	border: solid 1px rgba(255, 255, 255, 0);
+	padding: 1em 1.5em;
 }
 
 .box.person h3 {
@@ -3131,15 +3131,14 @@ button:disabled,
 /* banner5 */
 
 #banner5 {
-	padding: 0.75em 0 0.5em 0;
-	/* background-image: url('../../images/5881bc19312dc8d7a4ae0f064daeba0e.jpg'); */
-	background-color: rgb(58, 83, 109);
+	padding: 7em 0 10em 0;
+	 background-image: url('../../images/backgrounds/5881bc19312dc8d7a4ae0f064daeba0e.jpg'); 
 	background-size: cover;
 	background-position: top;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	text-align: center;
-	border-top: 0em solid #5385c1;
+	border-top: 0.5em solid #5385c1;
 }
 
 #banner5 h1 {
@@ -3158,8 +3157,7 @@ button:disabled,
 	line-height: 1em;
 	margin: 0 0 -2.5em 0;
 	padding: 0em;
-	background-color: rgb(58, 83, 109);
-	box-shadow: 0 0 17px 13px rgba(57, 82, 108, 1);
+
 }
 
 #banner5 p {
@@ -3219,7 +3217,7 @@ button:disabled,
 
 #banner4 {
 	padding: 14em 0 10em 0;
-	background-image: url('../../images/gears-4335076_1280.jpeg');
+	background-image: url('../../images/backgrounds/gears-4335076_1280.jpeg');
 	background-size: cover;
 	background-position: top;
 	background-attachment: fixed;
@@ -3305,7 +3303,7 @@ button:disabled,
 
 #banner3 {
 	padding: 14em 0 7.5em 0;
-	background-image: url('../../images/36-367890_m.jpeg');
+	background-image: url('../../images/backgrounds/36-367890_m.jpeg');
 	background-size: cover;
 	background-position: top;
 	background-attachment: fixed;
@@ -3381,7 +3379,7 @@ button:disabled,
 
 #banner2 {
 	padding: 14em 0 10em 0;
-	background-image: url('../../images/gears-2891294_1280.jpeg');
+	background-image: url('../../images/backgrounds/gears-2891294_1280.jpeg');
 	background-size: cover;
 	background-position: top;
 	background-attachment: fixed;
@@ -3457,7 +3455,7 @@ button:disabled,
 
 #banner {
 	padding: 14em 0 10em 0;
-	background-image: url('../../images/banner.jpg');
+	background-image: url('../../images/backgrounds/banner.jpg');
 	background-size: cover;
 	background-position: top;
 	background-attachment: fixed;
